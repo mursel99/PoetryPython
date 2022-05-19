@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-demo-main"
+version = "1.1.0"
+description = "Poetry for trainee developer position in version 1.1"
+authors = ["Mursel <murselsakurti99@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pysen = {version = "0.10.2", extras = ["lint"]}
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
